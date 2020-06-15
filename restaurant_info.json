@@ -1,0 +1,47 @@
+{
+    "1": {
+        "id": 1,
+        "name": "1abc",
+        "timings": {
+            "breakfast": {
+                "start_time": 8,
+                "end_time": 11
+            },
+            "lunch": {
+                "start_time": 14,
+                "end_time": 18
+            },
+            "dinner": {
+                "start_time": 19,
+                "end_time": 22
+            }
+        }
+    },
+    "2": {
+        "id": 2,
+        "name": "2abc",
+        "timings": {
+            "breakfast": {
+                "start_time": 8,
+                "end_time": 12
+            },
+            "lunch": {
+                "start_time": 11,
+                "end_time": 18
+            },
+            "dinner": null
+        }
+    },
+    "3" : {
+        "id": 3,
+        "name": "3abc",
+        "timings": {
+            "breakfast": {
+                "start_time": 8,
+                "end_time": 17
+            },
+            "lunch": null,
+            "dinner": null
+        }
+    }
+}

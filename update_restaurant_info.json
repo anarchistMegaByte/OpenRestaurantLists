@@ -1,0 +1,35 @@
+{
+    "1": {
+        "operation": "add",
+        "id": 1,
+        "name": "1abc",
+        "timings": {
+            "breakfast": {
+                "start_time": 8,
+                "end_time": 11
+            },
+            "lunch": {
+                "start_time": 14,
+                "end_time": 18
+            }
+        }
+    },
+    "2": {
+        "operation": "update",
+        "id": 2,
+        "timings": {
+            "breakfast": {
+                "start_time": 6,
+                "end_time": 8
+            },
+            "lunch": {
+                "start_time": 14,
+                "end_time": 16
+            },
+            "dinner": {
+                "start_time": 20,
+                "end_time": 22
+            }
+        }
+    }
+}
