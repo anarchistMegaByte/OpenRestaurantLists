@@ -9,6 +9,20 @@
 }
 ```
 
+`json_obj`
+
+```json
+{
+    "operation": "add/update", // only required when you are using update_resturant_info.json
+    "id": restaurant_id,
+    "name": restaurant_name, # is compusory field in case of "add" operation.
+    "timings": {
+        "lunch": time_obj,
+        "breakfast" : time_obj,
+        "dinner": time_obj
+     }
+}
+
 
 #### 1. `restaurant_info.json`:
 This is the base file for initalizing database with restaurant information for open hours. It has json for format:
