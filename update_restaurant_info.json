@@ -31,5 +31,17 @@
                 "end_time": 22
             }
         }
+    },
+    "4": {
+        "operation": "add",
+        "id": 4,
+        "name": "4ghi",
+        "timings": {
+            "breakfast": null,
+            "dinner": {
+                "start_time": 15,
+                "end_time": 22
+            }
+        }
     }
 }

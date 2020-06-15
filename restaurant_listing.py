@@ -88,9 +88,9 @@ class Restaurant:
                 "id": restaurant_id,
                 "name": name,
                 "timings": {
-                    LUNCH: None,
-                    BREAKFAST: None,
-                    DINNER: None
+                    self.LUNCH: None,
+                    self.BREAKFAST: None,
+                    self.DINNER: None
                 }
             }
         return self.restaurant_obj[str(restaurant_id)]
