@@ -22,7 +22,7 @@
         "dinner": time_obj
      }
 }
-
+```
 
 #### 1. `restaurant_info.json`:
 This is the base file for initalizing database with restaurant information for open hours. It has json for format:
