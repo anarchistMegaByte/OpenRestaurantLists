@@ -1,5 +1,15 @@
 ## Files and their information:
 
+#### NOTE: Generic json file parent structure
+```json
+{
+    "restaurant_id": json_obj,
+    "restaurant_id": json_obj
+    ...
+}
+```
+
+
 #### 1. `restaurant_info.json`:
 This is the base file for initalizing database with restaurant information for open hours. It has json for format:
 
@@ -61,6 +71,48 @@ There are two variations of json in this file:
         }
     }
 ```
+
+##### ii. Updating timings of existing restaurants: Only put timings for either lunch, breakfast or dinner (all are not compulsory)
+
+```json
+"1": {
+        "operation": "update",
+        "id": 1,
+        "timings": {
+            "breakfast": {
+                "start_time": 8,
+                "end_time": 11
+            },
+            "lunch": {
+                "start_time": 14,
+                "end_time": 18
+            }
+        }
+    }
+ ```
+
+###### iii. Remove particular hours from timings. Put `null` as value if you want to remove a particualar timings.
+
+```json
+"2": {
+        "operation": "update",
+        "id": 2,
+        "timings": {
+            "breakfast": {
+                "start_time": 6,
+                "end_time": 8
+            },
+            "lunch": {
+                "start_time": 14,
+                "end_time": 16
+            },
+            "dinner": null
+        }
+    }
+```
+In the above example the timings for dinner will be removed from restaurants opening hours.
+
+
 
 ## Instructions for running the this script.
 
