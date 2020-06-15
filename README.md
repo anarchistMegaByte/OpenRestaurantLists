@@ -135,3 +135,8 @@ In the above example the timings for dinner will be removed from restaurants ope
 2. Execute the file
 >> python restaurant_listing.py
 ```
+
+
+## Sample output of the program can be found in sampleOutput.md
+
+NOTE: There are prints of certain dictionary to verify output. (It can be ignored.)
